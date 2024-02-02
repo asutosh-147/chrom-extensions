@@ -1,0 +1,15 @@
+.main{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.shortcut{
+    text-align: center;
+    width: 160px;
+    font-weight: 500;
+    padding-bottom: 0.75rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid gray;
+}

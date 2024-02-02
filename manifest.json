@@ -1,0 +1,22 @@
+{
+    "manifest_version":3,
+    "name":"gfg-shortcuts",
+    "version":"1.0.1",
+    "description":"geeks for geeks shortcuts",
+    "action":{
+        "default_popup":"keys.html"
+    },
+    "content_scripts":[
+        {
+            "matches":[
+                "*://*.geeksforgeeks.org/problems*"
+            ],
+            "js":[
+                "shortcuts.js"
+            ],
+            "css":[
+                "shortcuts.css"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "spotifySearch",
+  "version": "1.0.1",
+  "description": "prevent chrome default search bar open behaviour while using ctrl+k on spotify",
+  "content_scripts": [
+    {
+      "matches": ["*://open.spotify.com/*"],
+      "js": ["prevent.js"]
+    }
+  ]
+}

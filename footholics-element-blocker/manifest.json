@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "footholics-blocker",
+  "version": "1.0.1",
+  "description": "remove footholics for showing a disable add block window and remove overflow hidden from root html",
+  "content_scripts": [
+    {
+      "matches": ["*://live.footholics.in/*"],
+      "js": ["remove.js"]
+    }
+  ]
+}
